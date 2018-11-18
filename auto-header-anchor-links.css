@@ -7,7 +7,7 @@ h5 a.heading-link,
 h6 a.heading-link {
 	opacity: 0;
 	position: absolute;
-	left: -35px;
+	left: -1em;
 }
 h2 {
 	background-color: red;
