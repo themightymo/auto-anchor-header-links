@@ -5,7 +5,7 @@ Plugin URI: https://www.themightymo.com/
 Description: Dynamically adds anchor links when you hover over any header tag (H1, H2, H3, etc.)
 Author: themightymo
 Author URI: https://www.themightymo.com
-Version: 1.1
+Version: 1.2
 License: GPLv2 or later
 Text Domain: themightymo
 GitHub Plugin URI: themightymo/auto-anchor-header-links
@@ -53,10 +53,10 @@ add_filter( 'the_content', 'auto_id_headings' );
 	* enqueue the fontawesome styles 
 	* via https://alienwp.com/font-awesome-wordpress-guide/#Step_1_Enqueue_Font_Awesome_Stylesheet_in_Your_WordPress_Theme 
 */
-function enqueue_load_fa() {
+function enqueue_fontawesome() {
 	wp_enqueue_style( 'load-fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
 }
-add_action( 'wp_enqueue_scripts', 'enqueue_load_fontawesome' );
+add_action( 'wp_enqueue_scripts', 'enqueue_fontawesome' );
 
 
 /* enqueue custom styles */
