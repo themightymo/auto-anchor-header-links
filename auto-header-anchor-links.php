@@ -8,6 +8,8 @@ Author URI: https://www.themightymo.com
 Version: 1.0
 License: GPLv2 or later
 Text Domain: themightymo
+GitHub Plugin URI: themightymo/auto-anchor-header-links
+GitHub Plugin URI: https://github.com/themightymo/auto-anchor-header-links
 */
 
 /*
