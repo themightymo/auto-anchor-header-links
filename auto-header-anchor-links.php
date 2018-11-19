@@ -5,7 +5,7 @@ Plugin URI: https://www.themightymo.com/
 Description: Dynamically adds anchor links when you hover over any header tag (H1, H2, H3, etc.)
 Author: themightymo
 Author URI: https://www.themightymo.com
-Version: 1.2
+Version: 1.2.1
 License: GPLv2 or later
 Text Domain: themightymo
 GitHub Plugin URI: themightymo/auto-anchor-header-links
