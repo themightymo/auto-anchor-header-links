@@ -9,9 +9,6 @@ h6 a.heading-link {
 	position: absolute;
 	left: -1em;
 }
-h2 {
-	background-color: red;
-}
 
 h1:hover a.heading-link,
 h2:hover a.heading-link,
